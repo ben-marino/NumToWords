@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NumberToWords.Application\NumberToWords.Application.csproj" />
+    <ProjectReference Include="..\NumberToWords.Infrastructure\NumberToWords.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

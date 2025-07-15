@@ -22,4 +22,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\NumberToWords.Domain\NumberToWords.Domain.csproj" />
+    <ProjectReference Include="..\..\src\NumberToWords.Application\NumberToWords.Application.csproj" />
+    <ProjectReference Include="..\..\src\NumberToWords.Infrastructure\NumberToWords.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
