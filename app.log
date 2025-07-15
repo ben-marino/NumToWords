@@ -1,0 +1,41 @@
+Building...
+[15:59:31 INF] User profile is available. Using '/home/ben/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[15:59:31 INF] Now listening on: http://0.0.0.0:5000
+[15:59:31 INF] Application started. Press Ctrl+C to shut down.
+[15:59:31 INF] Hosting environment: Development
+[15:59:31 INF] Content root path: /home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web
+[15:59:41 INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+[15:59:41 WRN] Failed to determine the https port for redirect.
+[15:59:41 INF] Executing endpoint '/Index'
+[15:59:41 INF] Route matched with {page = "/Index"}. Executing page /Index
+[15:59:41 INF] Executing handler method NumberToWords.Web.Pages.IndexModel.OnGet - ModelState is Valid
+[15:59:41 INF] Index page accessed
+[15:59:41 INF] Executed handler method OnGet, returned result .
+[15:59:41 INF] Executing an implicit handler method - ModelState is Valid
+[15:59:41 INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[15:59:41 INF] Executed page /Index in 91.7366ms
+[15:59:41 INF] Executed endpoint '/Index'
+[15:59:41 INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 192.7332ms
+[16:01:38 INF] Request starting HTTP/1.1 GET http://127.0.0.1:5000/ - null null
+[16:01:38 INF] Executing endpoint '/Index'
+[16:01:38 INF] Route matched with {page = "/Index"}. Executing page /Index
+[16:01:38 INF] Executing handler method NumberToWords.Web.Pages.IndexModel.OnGet - ModelState is Valid
+[16:01:38 INF] Index page accessed
+[16:01:38 INF] Executed handler method OnGet, returned result .
+[16:01:38 INF] Executing an implicit handler method - ModelState is Valid
+[16:01:38 INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[16:01:38 INF] Executed page /Index in 3.7387ms
+[16:01:38 INF] Executed endpoint '/Index'
+[16:01:38 INF] Request finished HTTP/1.1 GET http://127.0.0.1:5000/ - 200 null text/html; charset=utf-8 8.3507ms
+[16:01:39 INF] Request starting HTTP/1.1 GET http://127.0.0.1:5000/favicon.ico - null null
+[16:01:39 INF] Request finished HTTP/1.1 GET http://127.0.0.1:5000/favicon.ico - 404 0 null 4.7168ms
+[16:01:39 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5000/favicon.ico, Response status code: 404
+[16:01:50 INF] Request starting HTTP/1.1 POST http://127.0.0.1:5000/api/convert - application/json 20
+[16:01:50 INF] CORS policy execution successful.
+[16:01:50 INF] Executing endpoint 'HTTP: POST /api/convert'
+[16:01:50 INF] Starting conversion for input: 12345.67
+[16:01:50 INF] Successfully converted 12345.67 to: TWELVE THOUSAND THREE HUNDRED FORTY FIVE DOLLARS AND SIXTY SEVEN CENTS
+[16:01:50 INF] Setting HTTP status code 200.
+[16:01:50 INF] Writing value of type 'ConvertResponse' as Json.
+[16:01:50 INF] Executed endpoint 'HTTP: POST /api/convert'
+[16:01:50 INF] Request finished HTTP/1.1 POST http://127.0.0.1:5000/api/convert - 200 null application/json; charset=utf-8 96.9051ms

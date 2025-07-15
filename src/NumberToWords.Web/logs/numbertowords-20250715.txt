@@ -4,3 +4,58 @@
 2025-07-15 14:00:49.928 +10:00 [INF] Hosting environment: Development
 2025-07-15 14:00:49.929 +10:00 [INF] Content root path: /home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web
 2025-07-15 14:00:52.981 +10:00 [INF] Application is shutting down...
+2025-07-15 15:53:26.491 +10:00 [INF] User profile is available. Using '/home/ben/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-15 15:53:26.899 +10:00 [INF] Now listening on: http://localhost:5000
+2025-07-15 15:53:26.904 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-15 15:53:26.906 +10:00 [INF] Hosting environment: Development
+2025-07-15 15:53:26.907 +10:00 [INF] Content root path: /home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web
+2025-07-15 15:56:11.811 +10:00 [INF] User profile is available. Using '/home/ben/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-15 15:56:12.103 +10:00 [INF] Now listening on: http://localhost:5203
+2025-07-15 15:56:12.114 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-15 15:56:12.115 +10:00 [INF] Hosting environment: Development
+2025-07-15 15:56:12.115 +10:00 [INF] Content root path: /home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web
+2025-07-15 15:58:46.651 +10:00 [INF] User profile is available. Using '/home/ben/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-15 15:58:47.063 +10:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-07-15 15:58:47.070 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-15 15:58:47.070 +10:00 [INF] Hosting environment: Development
+2025-07-15 15:58:47.070 +10:00 [INF] Content root path: /home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web
+2025-07-15 15:59:31.353 +10:00 [INF] User profile is available. Using '/home/ben/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-15 15:59:31.559 +10:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-07-15 15:59:31.562 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-15 15:59:31.563 +10:00 [INF] Hosting environment: Development
+2025-07-15 15:59:31.563 +10:00 [INF] Content root path: /home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web
+2025-07-15 15:59:41.667 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-07-15 15:59:41.695 +10:00 [WRN] Failed to determine the https port for redirect.
+2025-07-15 15:59:41.720 +10:00 [INF] Executing endpoint '/Index'
+2025-07-15 15:59:41.747 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-07-15 15:59:41.757 +10:00 [INF] Executing handler method NumberToWords.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-07-15 15:59:41.760 +10:00 [INF] Index page accessed
+2025-07-15 15:59:41.761 +10:00 [INF] Executed handler method OnGet, returned result .
+2025-07-15 15:59:41.765 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-07-15 15:59:41.766 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-07-15 15:59:41.846 +10:00 [INF] Executed page /Index in 91.7366ms
+2025-07-15 15:59:41.851 +10:00 [INF] Executed endpoint '/Index'
+2025-07-15 15:59:41.859 +10:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 192.7332ms
+2025-07-15 16:01:38.583 +10:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5000/ - null null
+2025-07-15 16:01:38.585 +10:00 [INF] Executing endpoint '/Index'
+2025-07-15 16:01:38.586 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-07-15 16:01:38.586 +10:00 [INF] Executing handler method NumberToWords.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-07-15 16:01:38.586 +10:00 [INF] Index page accessed
+2025-07-15 16:01:38.586 +10:00 [INF] Executed handler method OnGet, returned result .
+2025-07-15 16:01:38.587 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-07-15 16:01:38.587 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-07-15 16:01:38.590 +10:00 [INF] Executed page /Index in 3.7387ms
+2025-07-15 16:01:38.590 +10:00 [INF] Executed endpoint '/Index'
+2025-07-15 16:01:38.591 +10:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5000/ - 200 null text/html; charset=utf-8 8.3507ms
+2025-07-15 16:01:39.018 +10:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5000/favicon.ico - null null
+2025-07-15 16:01:39.023 +10:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5000/favicon.ico - 404 0 null 4.7168ms
+2025-07-15 16:01:39.026 +10:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://127.0.0.1:5000/favicon.ico, Response status code: 404
+2025-07-15 16:01:50.824 +10:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5000/api/convert - application/json 20
+2025-07-15 16:01:50.826 +10:00 [INF] CORS policy execution successful.
+2025-07-15 16:01:50.828 +10:00 [INF] Executing endpoint 'HTTP: POST /api/convert'
+2025-07-15 16:01:50.843 +10:00 [INF] Starting conversion for input: 12345.67
+2025-07-15 16:01:50.872 +10:00 [INF] Successfully converted 12345.67 to: TWELVE THOUSAND THREE HUNDRED FORTY FIVE DOLLARS AND SIXTY SEVEN CENTS
+2025-07-15 16:01:50.876 +10:00 [INF] Setting HTTP status code 200.
+2025-07-15 16:01:50.885 +10:00 [INF] Writing value of type 'ConvertResponse' as Json.
+2025-07-15 16:01:50.917 +10:00 [INF] Executed endpoint 'HTTP: POST /api/convert'
+2025-07-15 16:01:50.921 +10:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5000/api/convert - 200 null application/json; charset=utf-8 96.9051ms
