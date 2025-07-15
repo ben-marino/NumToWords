@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberToWords.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7753186f20874161a668b0d85d8ad3836d91dfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8e2e0bbbb4c5d30971bc182a29a2abd0f56c180")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberToWords.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberToWords.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

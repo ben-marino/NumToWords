@@ -107,3 +107,9 @@
 /home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/obj/Debug/net8.0/NumberToWords.Tests.Unit.pdb
 /home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/obj/Debug/net8.0/NumberToWords.Tests.Unit.genruntimeconfig.cache
 /home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/obj/Debug/net8.0/ref/NumberToWords.Tests.Unit.dll
+/home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/bin/Debug/net8.0/Castle.Core.dll
+/home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/bin/Debug/net8.0/FluentAssertions.dll
+/home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/bin/Debug/net8.0/Moq.dll
+/home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/home/ben/Documents/NumToWords/NumToWords/tests/NumberToWords.Tests.Unit/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll

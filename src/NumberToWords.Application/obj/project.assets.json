@@ -203,6 +203,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.7",
       "Microsoft.Extensions.Logging.Abstractions >= 9.0.7",
       "NumberToWords.Domain >= 1.0.0"
     ]
@@ -248,6 +249,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[9.0.7, )"
+          },
           "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
             "version": "[9.0.7, )"

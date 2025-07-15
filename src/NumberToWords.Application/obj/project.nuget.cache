@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dfEG0x2+JJBl2JZgFfP10fQqjPEJbUAjZrzJQ8AviqDC8aLJoDI+Xw/1uPyAr0zpIhN5gmkJ4YbwNXH9mweTXg==",
+  "dgSpecHash": "B8JRIWsYpyGgDVWC+hYRO3NUwLcOn+qGaG5K8lnizflrzQXxSjHxFyVdO+03j1eKMAxd0dWFEutqXkaJTneSYQ==",
   "success": true,
   "projectFilePath": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Application/NumberToWords.Application.csproj",
   "expectedPackageFiles": [

@@ -16,18 +16,21 @@ public class CurrencyInputValidator : IInputValidator
             return ValidationResult.Failure("Input cannot be empty");
         }
         
-        // Try to parse as decimal
-        if (!decimal.TryParse(input, NumberStyles.Currency | NumberStyles.Number, 
+        // Try to parse as decimal (only allow decimal point, no thousands separators)
+        if (!decimal.TryParse(input, NumberStyles.AllowDecimalPoint | NumberStyles.AllowLeadingSign, 
             CultureInfo.InvariantCulture, out var value))
         {
             return ValidationResult.Failure("Invalid number format");
         }
         
-        // Check for more than 2 decimal places
-        var decimalPlaces = BitConverter.GetBytes(decimal.GetBits(value)[3])[2];
-        if (decimalPlaces > 2)
+        // Check for more than 2 decimal places by checking input string
+        if (input.Contains('.'))
         {
-            return ValidationResult.Failure("Currency values cannot have more than 2 decimal places");
+            var decimalPart = input.Split('.')[1];
+            if (decimalPart.Length > 2)
+            {
+                return ValidationResult.Failure("Currency values cannot have more than 2 decimal places");
+            }
         }
         
         // Check range
