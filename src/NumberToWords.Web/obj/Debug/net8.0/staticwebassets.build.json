@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A0YgMO1tiM8VWugP4yjPj1eufZu2r6KJV17CP9TYvAE=",
+  "Hash": "LOJboNsQwflOD3LDue843btcAxc2kLteLpTejRgyA88=",
   "Source": "NumberToWords.Web",
   "BasePath": "_content/NumberToWords.Web",
   "Mode": "Default",
@@ -15,5 +15,82 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/.gitkeep",
+      "SourceId": "NumberToWords.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/",
+      "BasePath": "_content/NumberToWords.Web",
+      "RelativePath": ".gitkeep",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.gitkeep"
+    },
+    {
+      "Identity": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/css/site.css",
+      "SourceId": "NumberToWords.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/",
+      "BasePath": "_content/NumberToWords.Web",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/favicon.ico",
+      "SourceId": "NumberToWords.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/",
+      "BasePath": "_content/NumberToWords.Web",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/js/site.js",
+      "SourceId": "NumberToWords.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/",
+      "BasePath": "_content/NumberToWords.Web",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
 }

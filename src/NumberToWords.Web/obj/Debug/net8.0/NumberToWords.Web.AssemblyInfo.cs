@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberToWords.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ad61b46d1c44f7d8bdbbabc6eec12a24ee938ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b966c80a541556549e464c018f71baad3aac496")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberToWords.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberToWords.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
