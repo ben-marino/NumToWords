@@ -13,12 +13,19 @@
                 </div>
                 <div class="card-body">
                     <p class="text-muted">Convert numbers to their word representation in currency format.</p>
+                    <div class="alert alert-info">
+                        <strong>Examples:</strong> 123.45, 1000.00, 42, 0.01
+                        <br><small>Supports values from 0 to 999,999.99</small>
+                    </div>
                     
                     <form id="convertForm">
                         <div class="mb-3">
                             <label for="numberInput" class="form-label">Enter a number:</label>
                             <input type="text" class="form-control" id="numberInput" 
                                    placeholder="e.g., 123.45" required>
+                            <div class="invalid-feedback">
+                                Please enter a valid number with up to 2 decimal places.
+                            </div>
                             <div class="form-text">Supports numbers from 0 to 999,999.99</div>
                         </div>
                         

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "http://localhost:5000/api/convert",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "input": "123.45"
+    }
+  },
+  "expected_response": {
+    "isSuccess": true,
+    "result": "ONE HUNDRED TWENTY THREE DOLLARS AND FORTY FIVE CENTS",
+    "originalValue": 123.45,
+    "processingTimeMs": "< 50"
+  }
+}

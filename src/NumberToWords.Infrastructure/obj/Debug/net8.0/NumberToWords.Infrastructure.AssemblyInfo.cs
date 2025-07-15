@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberToWords.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7753186f20874161a668b0d85d8ad3836d91dfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e361a084b1b99192801ccea5d0f6b31a4cef4b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberToWords.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberToWords.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

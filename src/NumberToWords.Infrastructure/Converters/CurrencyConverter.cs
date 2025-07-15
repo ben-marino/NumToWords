@@ -45,7 +45,8 @@ public class CurrencyConverter : INumberToWordsConverter
         if (money.DollarPart > 0)
         {
             result.Append(ConvertWholeNumber(money.DollarPart));
-            result.Append($" {options.CurrencyName}");
+            var dollarUnit = money.DollarPart == 1 ? options.CurrencyName.TrimEnd('S') : options.CurrencyName;
+            result.Append($" {dollarUnit}");
         }
         else
         {
@@ -65,7 +66,8 @@ public class CurrencyConverter : INumberToWordsConverter
         if (money.CentPart > 0)
         {
             result.Append(ConvertWholeNumber(money.CentPart));
-            result.Append($" {options.SubCurrencyName}");
+            var centUnit = money.CentPart == 1 ? options.SubCurrencyName.TrimEnd('S') : options.SubCurrencyName;
+            result.Append($" {centUnit}");
         }
         else
         {
