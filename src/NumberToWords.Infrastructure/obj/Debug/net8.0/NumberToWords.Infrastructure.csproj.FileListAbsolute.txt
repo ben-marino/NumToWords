@@ -1,0 +1,16 @@
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.csproj.AssemblyReference.cache
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.AssemblyInfoInputs.cache
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.AssemblyInfo.cs
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.csproj.CoreCompileInputs.cache
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.sourcelink.json
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/bin/Debug/net8.0/NumberToWords.Infrastructure.deps.json
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/bin/Debug/net8.0/NumberToWords.Infrastructure.dll
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/bin/Debug/net8.0/NumberToWords.Infrastructure.pdb
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/bin/Debug/net8.0/NumberToWords.Domain.dll
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/bin/Debug/net8.0/NumberToWords.Domain.pdb
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.csproj.CopyComplete
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.dll
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/refint/NumberToWords.Infrastructure.dll
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/NumberToWords.Infrastructure.pdb
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/obj/Debug/net8.0/ref/NumberToWords.Infrastructure.dll

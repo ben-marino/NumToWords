@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/NumberToWords.Web.props" />
+</Project>

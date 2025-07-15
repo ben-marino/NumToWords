@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "A0YgMO1tiM8VWugP4yjPj1eufZu2r6KJV17CP9TYvAE=",
+  "Source": "NumberToWords.Web",
+  "BasePath": "_content/NumberToWords.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NumberToWords.Web/wwwroot",
+      "Source": "NumberToWords.Web",
+      "ContentRoot": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Web/wwwroot/",
+      "BasePath": "_content/NumberToWords.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

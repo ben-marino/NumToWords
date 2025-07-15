@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uBj8A/aG0sxMYEKJ0Egvg5M+rZXx53QQMfTSIVosl/3Infp6UegDZQdjRwQuxJv4LisHFPBdLpwYXE7+p4wCyA==",
+  "dgSpecHash": "IuwBf7zX1kXjH9uvQJCuTY7kvYoITqm+1sJ/PE3FvhQrXPwJ1y0945bdJEoKIlew2jIdtVrjYaGQmB1w/AWcpw==",
   "success": true,
   "projectFilePath": "/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Infrastructure/NumberToWords.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/ben/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.7/microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
+  ],
   "logs": []
 }

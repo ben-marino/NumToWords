@@ -1,0 +1,122 @@
+@page
+@model NumberToWords.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Number to Words Converter";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Number to Words Converter</h3>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted">Convert numbers to their word representation in currency format.</p>
+                    
+                    <form id="convertForm">
+                        <div class="mb-3">
+                            <label for="numberInput" class="form-label">Enter a number:</label>
+                            <input type="text" class="form-control" id="numberInput" 
+                                   placeholder="e.g., 123.45" required>
+                            <div class="form-text">Supports numbers from 0 to 999,999.99</div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="convertBtn">
+                            Convert to Words
+                        </button>
+                    </form>
+                    
+                    <div id="resultSection" class="mt-4" style="display: none;">
+                        <div class="alert" id="resultAlert">
+                            <h5 class="alert-heading" id="resultHeading"></h5>
+                            <p class="mb-0" id="resultText"></p>
+                            <hr class="my-2" id="resultDivider" style="display: none;">
+                            <small class="text-muted" id="processingTime"></small>
+                        </div>
+                    </div>
+                    
+                    <div id="loadingSpinner" class="text-center mt-4" style="display: none;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Converting...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('convertForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const input = document.getElementById('numberInput').value;
+            const resultSection = document.getElementById('resultSection');
+            const resultAlert = document.getElementById('resultAlert');
+            const resultHeading = document.getElementById('resultHeading');
+            const resultText = document.getElementById('resultText');
+            const processingTime = document.getElementById('processingTime');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const convertBtn = document.getElementById('convertBtn');
+            const resultDivider = document.getElementById('resultDivider');
+            
+            // Reset and show loading
+            resultSection.style.display = 'none';
+            loadingSpinner.style.display = 'block';
+            convertBtn.disabled = true;
+            
+            try {
+                const response = await fetch('/api/convert', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ input: input })
+                });
+                
+                const data = await response.json();
+                
+                loadingSpinner.style.display = 'none';
+                resultSection.style.display = 'block';
+                
+                if (data.isSuccess) {
+                    resultAlert.className = 'alert alert-success';
+                    resultHeading.textContent = 'Success!';
+                    resultText.textContent = data.result;
+                    resultDivider.style.display = 'block';
+                    processingTime.textContent = `Processed in ${data.processingTimeMs}ms`;
+                } else {
+                    resultAlert.className = 'alert alert-danger';
+                    resultHeading.textContent = 'Error';
+                    resultText.textContent = data.errorMessage || 'An error occurred';
+                    resultDivider.style.display = 'none';
+                    processingTime.textContent = '';
+                }
+            } catch (error) {
+                loadingSpinner.style.display = 'none';
+                resultSection.style.display = 'block';
+                resultAlert.className = 'alert alert-danger';
+                resultHeading.textContent = 'Error';
+                resultText.textContent = 'Failed to connect to the server';
+                resultDivider.style.display = 'none';
+                processingTime.textContent = '';
+            } finally {
+                convertBtn.disabled = false;
+            }
+        });
+        
+        // Real-time validation
+        document.getElementById('numberInput').addEventListener('input', (e) => {
+            const value = e.target.value;
+            const regex = /^\d*\.?\d{0,2}$/;
+            
+            if (!regex.test(value)) {
+                e.target.classList.add('is-invalid');
+            } else {
+                e.target.classList.remove('is-invalid');
+            }
+        });
+    </script>
+}

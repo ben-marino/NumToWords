@@ -1,0 +1,12 @@
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/bin/Debug/net8.0/NumberToWords.Domain.deps.json
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/bin/Debug/net8.0/NumberToWords.Domain.dll
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/bin/Debug/net8.0/NumberToWords.Domain.pdb
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/NumberToWords.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/NumberToWords.Domain.AssemblyInfoInputs.cache
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/NumberToWords.Domain.AssemblyInfo.cs
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/NumberToWords.Domain.csproj.CoreCompileInputs.cache
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/NumberToWords.Domain.sourcelink.json
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/NumberToWords.Domain.dll
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/refint/NumberToWords.Domain.dll
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/NumberToWords.Domain.pdb
+/home/ben/Documents/NumToWords/NumToWords/src/NumberToWords.Domain/obj/Debug/net8.0/ref/NumberToWords.Domain.dll
