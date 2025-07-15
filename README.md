@@ -1,6 +1,6 @@
 # Number to Words Converter
 
-A professional C# web application that converts numerical input to words, demonstrating clean architecture and senior-level development practices.
+A professional C# web application that converts numerical input to words, demonstrating clean architecture.
 
 ## Quick Start
 
